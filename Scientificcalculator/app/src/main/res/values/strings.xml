@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Scientific calculator</string>
+    <string name="OneText">1</string>
+    <string name="TwoText">2</string>
+    <string name="ThreeText">3</string>
+    <string name="FourText">4</string>
+    <string name="FiveText">5</string>
+    <string name="SixText">6</string>
+    <string name="SevenText">7</string>
+    <string name="EightText">8</string>
+    <string name="NineText">9</string>
+    <string name="ZeroText">0</string>
+    <string name="clearText">C</string>
+    <string name="OpenparanthesisText">(</string>
+    <string name="closeParanthesisText">)</string>
+    <string name="DivideText">÷</string>
+    <string name="MultiplyText">x</string>
+    <string name="AdditionText">+</string>
+    <string name="substractText">-</string>
+    <string name="DecimalText">.</string>
+    <string name="EqualText">=</string>
+    <string name="backspace"> </string>
+
+    <string name="displayhint">0</string>
+
+    <string name="sintext">sin</string>
+    <string name="costext">cos</string>
+    <string name="tantext">tan</string>
+    <string name="Arcsintext">sin<sup><small>-1</small></sup></string>
+    <string name="Arccostext">cos<sup><small>-1</small></sup></string>
+    <string name="Arctantext">tan<sup><small>-1</small></sup></string>
+    <string name="naturallogtext">ln</string>
+    <string name="logtext">log</string>
+    <string name="squareroottext">√</string>
+    <string name="absolutevaluetext">|x|</string>
+    <string name="pitext">π</string>
+    <string name="etext">e</string>
+    <string name="xsquaretext">x<sup><small>2</small></sup></string>
+    <string name="xpowerytext">x<sup><small>y</small></sup></string>
+    <string name="isprimefunction">prime</string>
+
+</resources>
