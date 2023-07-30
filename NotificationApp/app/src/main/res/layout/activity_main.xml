@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- notification_layout.xml -->
+    <LinearLayout
+        android:id="@+id/notification_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/notificationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification Title"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <!-- Message TextView -->
+        <TextView
+            android:id="@+id/notificationMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification Message"/>
+
+        <!-- Optional Image/Icon ImageView -->
+        <ImageView
+            android:id="@+id/notificationImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_notification_icon"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
